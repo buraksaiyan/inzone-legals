@@ -202,7 +202,7 @@ You agree to indemnify, defend, and hold harmless "inzone" and its developer(s) 
 
 ### 12.1 By You
 You may terminate your account at any time by:
-- Contacting us at inzoneapp@gmail.com to request account deletion
+- Contacting us at inzoneacontact@gmail.com to request account deletion
 - Ceasing use of the App
 
 ### 12.2 By Us
@@ -253,7 +253,7 @@ These Terms, together with our [Privacy Policy](./PRIVACY_POLICY.md), constitute
 
 For questions, concerns, or requests regarding these Terms, please contact:
 
-**Email:** inzoneapp@gmail.com
+**Email:** inzonecontact@gmail.com
 
 **Developer:** Individual Developer
 
@@ -268,3 +268,4 @@ BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO B
 ---
 
 *Last reviewed: December 5, 2025*
+
