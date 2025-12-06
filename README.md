@@ -7,5 +7,5 @@ Official legal documentation for the **InZone** mobile application.
 * [End User License Agreement (EULA)](./EULA.md)
 
 ---
-*Contact: inzoneapp@gmail.com*
+*Contact: inzonecontact@gmail.com*
 *Last Updated: December 2025*
