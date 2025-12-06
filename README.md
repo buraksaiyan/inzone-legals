@@ -1,11 +1,15 @@
-# inzone Legal Documents
+# inzone Legal Center
 
-Official legal documentation for the **inzone** mobile application.
+Welcome to the official legal documentation for **inzone**.
 
-### Current Documents
-* [Privacy Policy](./PRIVACY_POLICY.md)
-* [End User License Agreement (EULA)](./EULA.md)
+### 📄 Documents
+* [Privacy Policy](PRIVACY_POLICY)
+* [End User License Agreement (EULA)](EULA)
 
 ---
-*Contact: inzonecontact@gmail.com*
+### 📧 Contact Support
+If you have questions regarding these terms or your data, please contact us:
+**Email:** [inzonecontact@gmail.com](mailto:inzonecontact@gmail.com)
+
+---
 *Last Updated: December 2025*
