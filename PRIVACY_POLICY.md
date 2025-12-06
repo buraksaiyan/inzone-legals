@@ -141,7 +141,7 @@ You have the following rights regarding your data:
 
 ### 6.3 Deletion
 - **Delete individual items** – Remove specific goals, habits, to-dos, or journal entries in the App
-- **Delete your account** – Request complete account deletion by contacting us at inzoneapp@gmail.com. This will permanently remove all your data.
+- **Delete your account** – Request complete account deletion by contacting us at inzoneappgmail.com. This will permanently remove all your data.
 
 ### 6.4 Opt-Out Options
 - **Push notifications** – Disable in your device's notification settings
@@ -195,7 +195,7 @@ Your data may be transferred to and processed in countries other than your own, 
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:
 
-**Email:** inzoneapp@gmail.com
+**Email:** inzonecontact@gmail.com
 
 **Developer:** Individual Developer (not a registered business entity)
 
@@ -213,3 +213,4 @@ By using the inzone App, you consent to:
 ---
 
 *This Privacy Policy is provided in good faith and designed to be transparent about our data practices. If you do not agree with any part of this policy, please discontinue use of the App and contact us to request data deletion.*
+
