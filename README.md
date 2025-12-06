@@ -1,6 +1,6 @@
 # inzone Legal Documents
 
-Official legal documentation for the **InZone** mobile application.
+Official legal documentation for the **inzone** mobile application.
 
 ### Current Documents
 * [Privacy Policy](./PRIVACY_POLICY.md)
