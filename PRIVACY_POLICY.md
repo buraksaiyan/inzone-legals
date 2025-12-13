@@ -1,8 +1,8 @@
 # Privacy Policy for inzone
 
-**Last Updated:** December 5, 2025
+**Last Updated:** December 13, 2025
 
-**Effective Date:** December 5, 2025
+**Effective Date:** December 13, 2025
 
 This Privacy Policy describes how inzone ("we," "us," or "our") collects, uses, and protects your personal information when you use our mobile application ("App"). By using the App, you agree to the collection and use of information in accordance with this policy.
 
@@ -51,6 +51,14 @@ We may automatically collect:
 - **App version** – To ensure you have the latest features and security updates
 - **Crash reports** – Anonymous error logs to help us fix bugs and improve stability
 
+### 1.8 Advertising and Third-Party Data Collection
+
+**AdMob Disclosure:** The App displays ads on its free tier through the Google Mobile Ads SDK (AdMob), a service provided by Google.
+
+- **Data Collected:** AdMob collects Device Identifiers (such as the Android Advertising ID), IP Address, and information about your device and app usage.
+- **Purpose:** This data is primarily used by Google for serving personalized advertisements, measuring ad performance, and critically, detecting and preventing ad fraud and invalid traffic.
+- **User Choice:** You can control the use of the Advertising ID for personalized advertising via your device's operating system settings.
+
 ---
 
 ## 2. How We Use Your Information
@@ -67,13 +75,11 @@ We use your information solely to:
 | Improve the App | Anonymous crash reports and usage patterns |
 | Authenticate your account | Email, password hash, Google OAuth tokens |
 | Respond to support requests | Email address and inquiry content |
+| Display advertisements (free tier) | Advertising ID, IP address, device info (via AdMob) |
 
 ### What We Do NOT Do
-- ❌ We do **NOT** sell your personal data to third parties
-- ❌ We do **NOT** share your data with advertisers
-- ❌ We do **NOT** use your data for targeted advertising
-- ❌ We do **NOT** process or analyze your personal content (journals, goals, etc.) for any purpose other than storing and displaying it to you
-- ❌ We do **NOT** share your data with data brokers
+- ❌ We do **NOT** sell your personal data to third parties, except as necessary to provide core services (e.g., AdMob for ad delivery and fraud prevention).
+- ❌ We do **NOT** use your personal content (journals, goals, etc.) for targeted advertising.
 
 ---
 
@@ -109,7 +115,32 @@ We use the following third-party services:
 | **Supabase** | Database and authentication | Account data, usage data |
 | **Google Sign-In** | Optional authentication | Email, name (from Google) |
 | **Google Play Store / Apple App Store** | Subscription processing | Payment handled by stores |
+| **Google AdMob (Google Mobile Ads SDK)** | Advertising (free tier only) | Advertising ID (AAID), IP address, device info |
 | **Expo** | App development platform | Anonymous crash reports |
+
+### 4.1 Google AdMob Disclosure
+
+**For free tier users**, we display advertisements using **Google AdMob (Google Mobile Ads SDK)**. AdMob is operated by Google LLC and collects the following data:
+
+- **Android Advertising ID (AAID)** – A unique identifier for advertising purposes
+- **IP Address** – Used for approximate geographic location and fraud prevention
+- **Device Information** – Device model, operating system, screen dimensions
+- **Usage Data** – Ad views, clicks, and interaction metrics
+
+**Purpose of Data Collection by AdMob:**
+- Serving advertisements
+- Measuring ad performance and campaign effectiveness
+- Fraud detection and prevention
+- Reporting and analytics
+
+**Your Choices:**
+- You can reset your Advertising ID in your device settings
+- You can opt out of personalized advertising in your device settings
+- **Premium subscribers do not see ads** and this data is not collected for them
+
+For more information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google Uses Data](https://policies.google.com/technologies/partner-sites).
+
+### 4.2 Other Third-Party Services
 
 Each third-party service has its own privacy policy:
 - [Supabase Privacy Policy](https://supabase.com/privacy)
@@ -131,21 +162,22 @@ The App is not intended for children under the age of 13 (or the applicable age 
 
 You have the following rights regarding your data:
 
-### 6.1 Access and Portability
+### 6.1 Access Your Data
 - View all your data within the App (Profile, History, Settings)
-- Request a copy of your data by contacting us
+- Request a copy of your data by contacting us at **feedback@1inzone.app**
 
-### 6.2 Correction
+### 6.2 Correct Your Data
 - Edit your profile, goals, habits, and other data directly in the App
-- Update your email or username in Settings
+- Update your email or username in the App's Settings screen
 
-### 6.3 Deletion
-- **Delete individual items** – Remove specific goals, habits, to-dos, or journal entries in the App
-- **Delete your account** – Request complete account deletion by contacting us at inzonecontact@gmail.com. This will permanently remove all your data.
+### 6.3 Delete Your Data
+- **Delete individual items** – Remove specific goals, habits, to-dos, or journal entries directly in the App
+- **Delete your account** – Request complete account deletion by contacting us at **feedback@1inzone.app**. This will permanently remove all your data within 30 days.
 
 ### 6.4 Opt-Out Options
 - **Push notifications** – Disable in your device's notification settings
 - **Do Not Disturb** – Revoke permission in your device settings
+- **Personalized Ads** – Opt out via your device settings (Settings > Google > Ads)
 - **Google Sign-In** – Use email/password registration instead
 
 ### 6.5 For EU/EEA Residents (GDPR)
@@ -195,7 +227,7 @@ Your data may be transferred to and processed in countries other than your own, 
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:
 
-**Email:** inzonecontact@gmail.com
+**Email:** feedback@1inzone.app
 
 **Developer:** Individual Developer (not a registered business entity)
 
@@ -213,5 +245,3 @@ By using the inzone App, you consent to:
 ---
 
 *This Privacy Policy is provided in good faith and designed to be transparent about our data practices. If you do not agree with any part of this policy, please discontinue use of the App and contact us to request data deletion.*
-
-
