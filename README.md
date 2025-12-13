@@ -9,7 +9,7 @@ Welcome to the official legal documentation for **inzone**.
 ---
 ### 📧 Contact Support
 If you have questions regarding these terms or your data, please contact us:
-**Email:** [inzonecontact@gmail.com](mailto:inzonecontact@gmail.com)
+**Email:** [feedback@1inzone.app](mailto:feedback@1inzone.app)
 
 ---
 *Last Updated: December 2025*
