@@ -1,8 +1,8 @@
 # End User License Agreement (EULA) & Terms of Service
 
-**Last Updated:** December 13, 2025
+**Last Updated:** December 22, 2025
 
-**Effective Date:** December 13, 2025
+**Effective Date:** December 22, 2025
 
 ---
 
@@ -233,8 +233,9 @@ You agree to indemnify, defend, and hold harmless "inzone" and its developer(s) 
 
 ### 13.1 By You
 You may terminate your account at any time by:
+- Using the "Delete Account" feature within the App's settings (recommended)
 - Contacting us at feedback@1inzone.app to request account deletion
-- Ceasing use of the App
+- Ceasing use of the App and uninstalling it
 
 ### 13.2 By Us
 We reserve the right to suspend or terminate your account immediately, without prior notice, if you:
