@@ -1,8 +1,8 @@
 # Privacy Policy for inzone
 
-**Last Updated:** December 13, 2025
+**Last Updated:** December 22, 2025
 
-**Effective Date:** December 13, 2025
+**Effective Date:** December 22, 2025
 
 This Privacy Policy describes how inzone ("we," "us," or "our") collects, uses, and protects your personal information when you use our mobile application ("App"). By using the App, you agree to the collection and use of information in accordance with this policy.
 
@@ -171,8 +171,9 @@ You have the following rights regarding your data:
 - Update your email or username in the App's Settings screen
 
 ### 6.3 Delete Your Data
-- **Delete individual items** – Remove specific goals, habits, to-dos, or journal entries directly in the App
-- **Delete your account** – Request complete account deletion by contacting us at **feedback@1inzone.app**. This will permanently remove all your data within 30 days.
+- **Delete individual items** – Remove specific goals, habits, to-dos, or journal entries directly in the App.
+- **Delete your account** – You can permanently delete your account and all associated data instantly by using the **"Delete Account"** option in the App's Settings.
+- **Request deletion via email** – If you cannot access the App, you may request complete account deletion by contacting us at **feedback@1inzone.app** or visiting our privacy page. We will process these requests within 7 days.
 
 ### 6.4 Opt-Out Options
 - **Push notifications** – Disable in your device's notification settings
