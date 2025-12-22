@@ -29,7 +29,7 @@ If you cannot access the app, you may request deletion by email.
 
 ---
 
-### 📧 Contact Support
+### Contact Support
 If you have questions regarding these terms or your data, please contact us:
 **Email:** [feedback@1inzone.app](mailto:feedback@1inzone.app)
 
