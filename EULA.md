@@ -1,4 +1,4 @@
-# End User License Agreement (EULA) & Terms of Service
+# End User License Agreement (EULA)
 
 **Last Updated:** December 31, 2025
 
@@ -301,4 +301,5 @@ BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO B
 ---
 
 *Last reviewed: December 13, 2025*
+
 
