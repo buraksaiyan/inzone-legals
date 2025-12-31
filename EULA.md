@@ -1,8 +1,8 @@
 # End User License Agreement (EULA) & Terms of Service
 
-**Last Updated:** December 22, 2025
+**Last Updated:** December 31, 2025
 
-**Effective Date:** December 22, 2025
+**Effective Date:** December 31, 2025
 
 ---
 
@@ -108,9 +108,9 @@ The App offers the following subscription options:
 |------|------|-------------|
 | **T1** | Free | Basic features with advertisements |
 | **T2** | Ad-Free | Remove all advertisements |
-| **T3** | Monthly Focus | Enhanced focus features + ad-free |
-| **T4** | Monthly Full | Full access to all premium features |
-| **T5** | Lifetime | One-time purchase for permanent full access |
+| **T3** | Monthly Tracking | Enhanced tracking features + ad-free |
+| **T4** | Monthly Focus | Enhanced focus features + ad-free |
+| **T5** | Monthly Full | Full access to all premium features |
 
 ### 7.2 Billing and Payment Processing
 - All payments are processed through the **Google Play Store** (Android) or **Apple App Store** (iOS)
@@ -301,3 +301,4 @@ BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO B
 ---
 
 *Last reviewed: December 13, 2025*
+
