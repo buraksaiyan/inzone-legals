@@ -1,8 +1,8 @@
 # Privacy Policy for inzone
 
-**Last Updated:** December 22, 2025
+**Last Updated:** December 31, 2025
 
-**Effective Date:** December 22, 2025
+**Effective Date:** December 31, 2025
 
 This Privacy Policy describes how inzone ("we," "us," or "our") collects, uses, and protects your personal information when you use our mobile application ("App"). By using the App, you agree to the collection and use of information in accordance with this policy.
 
@@ -36,9 +36,9 @@ To power our productivity system, we store:
 - **Leaderboard data** – Your position relative to other users (username only, no personal data shared)
 
 ### 1.5 Subscription Information
-- **Subscription tier** – Whether you are on a free or premium plan (e.g., monthly_focus, monthly_full, lifetime_ad_free)
-- **Subscription status** – Active/inactive status and expiration dates
-- **Payment information** – Handled entirely by the Google Play Store or Apple App Store. We never see or store your payment card details.
+- Subscription tier – Whether you are on a free or premium plan (e.g., Free, Monthly Focus, Monthly Premium, Founders Edition)
+- Subscription status – Active/inactive status and expiration dates
+- Payment information – Handled entirely by the Google Play Store or Apple App Store. We never see or store your payment card details.
 
 ### 1.6 Device Permissions
 The App requests the following permissions:
@@ -246,3 +246,4 @@ By using the inzone App, you consent to:
 ---
 
 *This Privacy Policy is provided in good faith and designed to be transparent about our data practices. If you do not agree with any part of this policy, please discontinue use of the App and contact us to request data deletion.*
+
