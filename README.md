@@ -1,15 +1,22 @@
-# inzone Legal Center
+# 1inzone Studio - Legal Center
 
-Welcome to the official legal documentation for **inzone**.
-
-### Documents
-* [Privacy Policy](PRIVACY_POLICY)
-* [End User License Agreement (EULA)](EULA)
+Welcome to the official legal documentation for applications published by **1inzone**.
 
 ---
 
-### Account Deletion
-We value your control over your data. You can request the permanent deletion of your account and all associated data at any time.
+## 🎮 Color Hunter
+*Color Hunter is a standalone application. We do not require user accounts, nor do we collect personally identifiable information (PII) such as names or emails. We utilize Google AdMob for monetization, which uses device identifiers for advertising.*
+* [Color Hunter - Privacy Policy](COLOR_HUNTER_PRIVACY)
+
+---
+
+## 📱 inzone
+### Documents
+* [inzone - Privacy Policy](PRIVACY_POLICY)
+* [inzone - End User License Agreement (EULA)](EULA)
+
+### Account Deletion (inzone only)
+We value your control over your data. You can request the permanent deletion of your **inzone** account and all associated data at any time.
 
 **Option 1: Delete via App (Instant)**
 If you still have the app installed:
@@ -23,15 +30,15 @@ If you cannot access the app, you may request deletion by email.
 
 > **Security Note:** For your protection, you must send this request from the **same email address** you used to sign up. Requests from unmatched or unverified email addresses will be rejected.
 
-[**Click here to Request Deletion**](mailto:feedback@1inzone.app?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20account.%0A%0AMy%20Username%20is:%20%0AMy%20Registered%20Email%20is:%20)
+[**Click here to Request Deletion**](mailto:feedback@1inzone.app?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20inzone%20account.%0A%0AMy%20Username%20is:%20%0AMy%20Registered%20Email%20is:%20)
 
 *Or email us manually at: `feedback@1inzone.app` with the subject "Account Deletion Request".*
 
 ---
 
 ### Contact Support
-If you have questions regarding these terms or your data, please contact us:
+If you have questions regarding these terms or your data for any of our applications, please contact us:
 **Email:** [feedback@1inzone.app](mailto:feedback@1inzone.app)
 
 ---
-*Last Updated: December 2025*
+*Last Updated: April 2026*
