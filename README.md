@@ -1,15 +1,3 @@
-# 1inzone Studio - Legal Center
-
-Welcome to the official legal documentation for applications published by **1inzone**.
-
----
-
-## 🎮 Color Hunter
-*Color Hunter is a standalone application. We do not require user accounts, nor do we collect personally identifiable information (PII) such as names or emails. We utilize Google AdMob for monetization, which uses device identifiers for advertising.*
-* [Color Hunter - Privacy Policy](COLOR_HUNTER_PRIVACY)
-
----
-
 ## 📱 inzone
 ### Documents
 * [inzone - Privacy Policy](PRIVACY_POLICY)
