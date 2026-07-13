@@ -1,28 +1,28 @@
 # End User License Agreement (EULA) and Terms of Service
 
-**Last Updated:** July 12, 2026
+**Last Updated:** July 13, 2026
 
-**Effective Date:** July 12, 2026
+**Effective Date:** July 13, 2026
 
-These terms govern your personal use of the InZone mobile application and related services (the "App").
+These terms govern your personal use of the inzone mobile application and related services (the "App").
 
 ---
 
 ## 1. Agreement
 
-By selecting **Agree and continue**, downloading, installing, or using InZone, you agree to these Terms and our [Privacy Policy](./PRIVACY_POLICY.md). If you do not agree, do not use the App.
+By selecting **Agree and continue**, downloading, installing, or using inzone, you agree to these Terms and our [Privacy Policy](./PRIVACY_POLICY.md). If you do not agree, do not use the App.
 
 ---
 
 ## 2. License
 
-We grant you a limited, revocable, non-exclusive, non-transferable license to use InZone on devices you own or control for personal, non-commercial purposes, subject to these Terms and applicable Apple App Store or Google Play rules.
+We grant you a limited, revocable, non-exclusive, non-transferable license to use inzone on devices you own or control for personal, non-commercial purposes, subject to these Terms and applicable Apple App Store or Google Play rules.
 
 ---
 
 ## 3. Guest Use and Accounts
 
-An account login is not required to begin using InZone. The App automatically creates a guest profile after you accept the Privacy Policy and EULA.
+An account login is not required to begin using inzone. The App automatically creates a guest profile after you accept the Privacy Policy and EULA.
 
 You may later connect email, Sign in with Apple, or Google Sign-In to protect and synchronize that profile. You are responsible for safeguarding permanent account credentials and for activity under your account.
 
@@ -32,7 +32,7 @@ You must be at least 13 years old or meet the applicable minimum age of digital 
 
 ## 4. Your Content
 
-You retain ownership of content you create in InZone, including journal entries, targets, habits, daily wins, profile details, and focus history.
+You retain ownership of content you create in inzone, including journal entries, targets, habits, daily wins, profile details, and focus history.
 
 You grant us the limited permission needed to store, process, synchronize, and display that content back to you as part of the App. We do not use personal content for advertising.
 
@@ -51,7 +51,7 @@ You may not:
 - Upload malware or harmful code
 - Sell, transfer, or commercially exploit an account without permission
 - Reverse engineer the App where prohibited by applicable law
-- Use InZone in violation of law or third-party rights
+- Use inzone in violation of law or third-party rights
 
 ---
 
@@ -63,11 +63,13 @@ Scores, attributes, daily grades, streaks, achievements, and Founder badges are 
 
 ## 7. Subscriptions and Purchases
 
-InZone may offer Premium and Founder plans on monthly or annual billing periods. Available plans, prices, trial information, and regional pricing are shown by Apple App Store or Google Play before purchase.
+inzone may offer Premium and Founder plans on monthly or annual billing periods. Available plans, prices, trial information, and regional pricing are shown by Apple App Store or Google Play before purchase.
+
+Founder sales are intended for the first 100 confirmed members. The App stops offering new Founder checkouts when the confirmed count reaches 100, although purchases already underway at the cutoff may still complete. This short checkout overlap can result in slightly more than 100 Founder members.
 
 - Purchases are processed by the applicable store.
 - Subscriptions renew automatically unless canceled through the store before renewal.
-- Uninstalling InZone does not cancel a subscription.
+- Uninstalling inzone does not cancel a subscription.
 - Refund requests are handled under the store policies applicable to the purchase.
 - Subscription access may end when a purchase expires, is canceled, refunded, or revoked.
 
@@ -77,13 +79,13 @@ We may change future pricing or plan availability subject to store rules and app
 
 ## 8. No Third-Party Advertising
 
-InZone does not display third-party advertising. Paid plans unlock additional App features and limits; they are not ad-removal products.
+inzone does not display third-party advertising. Paid plans unlock additional App features and limits; they are not ad-removal products.
 
 ---
 
 ## 9. Notifications and Device Features
 
-If you enable notifications, InZone may send focus, habit, streak, achievement, subscription, or service messages. You can disable optional notifications in device settings.
+If you enable notifications, inzone may send focus, habit, streak, achievement, subscription, or service messages. You can disable optional notifications in device settings.
 
 Some focus sessions may continue to track elapsed time while the App is backgrounded. You remain responsible for using the App safely and following device or workplace rules.
 
@@ -91,7 +93,7 @@ Some focus sessions may continue to track elapsed time while the App is backgrou
 
 ## 10. Health and Safety Disclaimer
 
-InZone is a productivity and self-management tool. It does not provide medical, psychological, financial, legal, or other professional advice.
+inzone is a productivity and self-management tool. It does not provide medical, psychological, financial, legal, or other professional advice.
 
 Do not interact with timers or other App controls while driving or in any situation where distraction could be unsafe.
 
@@ -107,9 +109,9 @@ Rights and warranties that cannot legally be excluded remain unaffected.
 
 ## 12. Limitation of Liability
 
-To the maximum extent permitted by law, InZone and its developer will not be liable for indirect, incidental, special, consequential, or punitive losses arising from use of or inability to use the App.
+To the maximum extent permitted by law, inzone and its developer will not be liable for indirect, incidental, special, consequential, or punitive losses arising from use of or inability to use the App.
 
-Where liability cannot be excluded, total liability will be limited to the greater of the amount you paid for InZone during the preceding 12 months or USD $50, except where applicable law requires otherwise.
+Where liability cannot be excluded, total liability will be limited to the greater of the amount you paid for inzone during the preceding 12 months or USD $50, except where applicable law requires otherwise.
 
 ---
 
@@ -117,7 +119,7 @@ Where liability cannot be excluded, total liability will be limited to the great
 
 We may suspend or terminate access for fraud, abuse, security threats, unlawful activity, or material violation of these Terms.
 
-You may stop using InZone at any time. You can permanently delete your account from **Settings > Delete Account** or request deletion through **feedback@1inzone.app** if you cannot access the App.
+You may stop using inzone at any time. You can permanently delete your account from **Settings > Delete Account** or request deletion through **feedback@1inzone.app** if you cannot access the App.
 
 Deleting an account or uninstalling the App does not automatically cancel an active store subscription. Subscription management remains available through Apple App Store or Google Play.
 
@@ -125,13 +127,13 @@ Deleting an account or uninstalling the App does not automatically cancel an act
 
 ## 14. Changes to These Terms
 
-We may update these Terms as InZone changes. Material updates will be presented in the App for renewed acceptance when required. If you do not agree to an update, you must stop using the App.
+We may update these Terms as inzone changes. Material updates will be presented in the App for renewed acceptance when required. If you do not agree to an update, you must stop using the App.
 
 ---
 
 ## 15. General Terms
 
-These Terms and the Privacy Policy form the agreement between you and InZone regarding the App. If a provision is unenforceable, the remaining provisions continue in effect. Applicable law and mandatory consumer rights govern any dispute.
+These Terms and the Privacy Policy form the agreement between you and inzone regarding the App. If a provision is unenforceable, the remaining provisions continue in effect. Applicable law and mandatory consumer rights govern any dispute.
 
 ---
 

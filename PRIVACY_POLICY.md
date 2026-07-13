@@ -1,16 +1,16 @@
-# Privacy Policy for InZone
+# Privacy Policy for inzone
 
-**Last Updated:** July 12, 2026
+**Last Updated:** July 13, 2026
 
-**Effective Date:** July 12, 2026
+**Effective Date:** July 13, 2026
 
-This Privacy Policy explains what InZone ("we," "us," or "our") collects, why it is needed, how it is protected, and the choices available to you when you use the InZone mobile application (the "App").
+This Privacy Policy explains what inzone ("we," "us," or "our") collects, why it is needed, how it is protected, and the choices available to you when you use the inzone mobile application (the "App").
 
 ---
 
 ## 1. Guest and Account Data
 
-InZone starts with an automatically created guest profile. A guest profile has a random account identifier and does not require an email address.
+inzone starts with an automatically created guest profile. A guest profile has a random account identifier and does not require an email address.
 
 If you later protect or synchronize your progress using email, Sign in with Apple, or Google Sign-In, we receive the account information needed for authentication, such as:
 
@@ -26,7 +26,7 @@ We do not receive your Apple ID or Google password. We do not access Google cont
 
 ## 2. Content and Activity Data
 
-We store information you choose to create or generate in InZone, including:
+We store information you choose to create or generate in inzone, including:
 
 - Focus sessions, modes, durations, completion status, and timestamps
 - Targets and their progress
@@ -43,7 +43,7 @@ This data is used to provide the App, synchronize progress, restore your account
 
 ## 3. Subscription Information
 
-Apple App Store and Google Play process purchases. RevenueCat helps InZone confirm subscription and Founder entitlements.
+Apple App Store and Google Play process purchases. RevenueCat helps inzone confirm subscription and Founder entitlements.
 
 We may receive:
 
@@ -87,7 +87,7 @@ We use information to:
 
 ## 6. No Advertising or Sale of Data
 
-InZone does not display third-party advertising.
+inzone does not display third-party advertising.
 
 We do not use the Google Mobile Ads SDK or AdMob in the App, and we do not collect advertising identifiers for ad delivery. We do not sell personal information.
 
@@ -95,11 +95,12 @@ We do not use the Google Mobile Ads SDK or AdMob in the App, and we do not colle
 
 ## 7. Service Providers
 
-We use the following providers only as needed to operate InZone:
+We use the following providers only as needed to operate inzone:
 
 | Provider | Purpose |
 |---|---|
 | Supabase | Authentication, database, and file storage |
+| Resend | Account verification, password reset, and security email delivery |
 | Apple | Optional Sign in with Apple and App Store billing |
 | Google | Optional Google Sign-In and Google Play billing |
 | RevenueCat | Subscription and entitlement synchronization |
@@ -147,7 +148,7 @@ To submit a privacy request, contact **feedback@1inzone.app**. We may need to ve
 
 ## 11. Children's Privacy
 
-InZone is not directed to children under 13 or under the applicable age of digital consent in their jurisdiction. If you believe a child has provided personal information without appropriate authorization, contact us so we can investigate and delete it where required.
+inzone is not directed to children under 13 or under the applicable age of digital consent in their jurisdiction. If you believe a child has provided personal information without appropriate authorization, contact us so we can investigate and delete it where required.
 
 ---
 
@@ -159,7 +160,7 @@ Our service providers may process information in countries other than your own. 
 
 ## 13. Changes to This Policy
 
-We may update this policy as InZone changes. Material updates will be presented in the App for renewed acceptance when required. The current version and effective date will remain available on this website.
+We may update this policy as inzone changes. Material updates will be presented in the App for renewed acceptance when required. The current version and effective date will remain available on this website.
 
 ---
 

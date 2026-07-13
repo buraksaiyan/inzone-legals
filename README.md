@@ -29,4 +29,4 @@ If you have questions regarding these terms or your data for any of our applicat
 **Email:** [feedback@1inzone.app](mailto:feedback@1inzone.app)
 
 ---
-*Last Updated: April 2026*
+*Last Updated: July 13, 2026*
