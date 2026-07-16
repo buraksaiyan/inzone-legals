@@ -1,0 +1,107 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  color-scheme: dark;
+  --void: #0d0514;
+  --panel: rgba(255, 255, 255, 0.065);
+  --panel-strong: rgba(38, 23, 53, 0.94);
+  --border: rgba(255, 255, 255, 0.15);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.68);
+  --accent: #d9a7ff;
+  --cool: #55e7e9;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background:
+    radial-gradient(65rem 48rem at 12% 4%, rgba(116, 42, 144, 0.3), transparent 58%),
+    radial-gradient(56rem 44rem at 100% 48%, rgba(62, 35, 122, 0.18), transparent 62%),
+    var(--void);
+  color: var(--text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+.page-header {
+  padding: 3.5rem 1rem 2.5rem;
+  background: transparent;
+  color: var(--text);
+}
+
+.project-name {
+  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+
+.project-tagline { color: var(--muted); }
+
+.main-content {
+  max-width: 880px;
+  margin-bottom: 4rem;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--panel);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(24px) saturate(130%);
+  -webkit-backdrop-filter: blur(24px) saturate(130%);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content strong { color: var(--text); }
+
+.main-content h1 {
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.main-content h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.main-content p,
+.main-content li { color: var(--muted); }
+
+.main-content a { color: var(--cool); }
+
+.main-content table {
+  display: table;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main-content table th,
+.main-content table td {
+  border-color: var(--border);
+  background: rgba(0, 0, 0, 0.16);
+  color: var(--muted);
+}
+
+.main-content table th { color: var(--text); }
+
+.site-footer {
+  border-top-color: var(--border);
+  color: rgba(255, 255, 255, 0.48);
+}
+
+@media (max-width: 720px) {
+  .page-header { padding-top: 2.25rem; }
+  .main-content { margin: 0 12px 2rem; border-radius: 18px; }
+  .main-content table { display: block; overflow-x: auto; }
+}

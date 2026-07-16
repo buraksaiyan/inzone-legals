@@ -1,6 +1,12 @@
+---
+layout: default
+title: Privacy Policy
+description: Privacy practices for the inzone mobile app.
+---
+
 # Privacy Policy for inzone
 
-**Last Updated:** July 13, 2026
+**Last Updated:** July 16, 2026
 
 **Effective Date:** July 13, 2026
 
@@ -8,23 +14,25 @@ This Privacy Policy explains what inzone ("we," "us," or "our") collects, why it
 
 ---
 
-## 1. Guest and Account Data
+## 1. Guest-First Accounts
 
-inzone starts with an automatically created guest profile. A guest profile has a random account identifier and does not require an email address.
+inzone automatically creates a guest account after you accept the Privacy Policy and EULA. A guest account uses a random user identifier and does not require an email address.
 
-If you later protect or synchronize your progress using email, Sign in with Apple, or Google Sign-In, we receive the account information needed for authentication, such as:
+You may later connect that same account to email and password, Sign in with Apple, or Google Sign-In. Connecting an identity is designed to preserve the guest account ID and its progress rather than create a separate profile.
+
+If you connect an account, we and our authentication providers may process:
 
 - Email address
-- Username or display name
-- Authentication provider and provider identifier
+- Username, name, or display name
+- Account and authentication-provider identifiers
 - Profile details you choose to add
 - Timezone, used for daily activity and streak calculations
 
-We do not receive your Apple ID or Google password. We do not access Google contacts, calendars, files, or unrelated services.
+We do not receive your Apple ID password, Google password, contacts, calendars, files, or unrelated account content.
 
 ---
 
-## 2. Content and Activity Data
+## 2. Content and Activity
 
 We store information you choose to create or generate in inzone, including:
 
@@ -33,40 +41,41 @@ We store information you choose to create or generate in inzone, including:
 - Habits, check-ins, and streaks
 - Daily wins and completion history
 - Journal entries
-- Profile details and preferences
-- Progress scores, daily grades, attributes, achievements, and Founder status
+- Profile details, preferences, and an optional avatar image
+- Progress scores, daily grades, attributes, and achievements
+- Subscription tier, Founder status, and Founder badge preference
 - Onboarding choices and legal-acceptance records
 
-This data is used to provide the App, synchronize progress, restore your account, and display your history. Personal content such as journal entries is not used for advertising.
+This information provides the App, synchronizes progress, restores your account, and displays your history. Journal entries and other personal content are not used for advertising or marketing.
 
 ---
 
-## 3. Subscription Information
+## 3. Purchases and Subscriptions
 
-Apple App Store and Google Play process purchases. RevenueCat helps inzone confirm subscription and Founder entitlements.
+Apple App Store and Google Play process payments. RevenueCat helps inzone validate Premium and Founder access across devices.
 
-We may receive:
+We and these providers may process:
 
-- Product and plan identifiers
+- Product, plan, and store identifiers
 - Purchase and entitlement status
-- Renewal and expiration dates
-- Store and country information supplied with the purchase
+- Renewal, cancellation, refund, revocation, and expiration information
+- Store country or region and transaction identifiers supplied by the store
 
-We do not receive or store your full payment-card details.
+We do not receive or store your full payment-card or bank-account details.
 
 ---
 
-## 4. Device and Service Data
+## 4. Technical and Security Data
 
-We may process limited technical information needed to operate and secure the App, including:
+inzone and the service providers listed below may process limited technical data needed for authentication, purchases, compatibility, fraud prevention, security, and reliability. Depending on the feature and provider, this may include:
 
-- Device and operating-system type
-- App version
-- Timezone
-- Notification token, if notifications are enabled
-- Diagnostic, security, and crash information
+- App version, operating system, device type, and device-level identifiers
+- Timezone and general locale
+- Approximate location inferred from an IP address or provider request; inzone does not request precise GPS location
+- Product interaction and other usage data, such as app activity needed to save progress and restore state
+- Security events, network information, and limited diagnostic information
 
-Notification permission is optional and can be changed in your device settings.
+inzone does not request the iOS advertising identifier (IDFA), does not use this information for cross-app tracking, and does not use third-party advertising SDKs.
 
 ---
 
@@ -75,21 +84,23 @@ Notification permission is optional and can be changed in your device settings.
 We use information to:
 
 - Provide focus, habit, target, journal, history, and progress features
-- Create and maintain guest or permanent accounts
+- Create and maintain guest or connected accounts
 - Synchronize and restore progress across devices
-- Confirm subscription access
-- Send notifications you enable
-- Secure, troubleshoot, and improve the App
+- Authenticate users and protect accounts
+- Confirm subscription access and restore purchases
+- Prevent abuse, investigate security events, and keep the service reliable
 - Respond to support, privacy, and deletion requests
-- Meet legal and store-platform obligations
+- Meet legal and app-store obligations
+
+We do not use personal data for third-party advertising, our own advertising, data-broker activity, or cross-app tracking.
 
 ---
 
-## 6. No Advertising or Sale of Data
+## 6. No Ads, Tracking, or Sale of Data
 
-inzone does not display third-party advertising.
+inzone does not display third-party advertising. The App does not include Google Mobile Ads or AdMob and does not collect advertising identifiers for ad delivery.
 
-We do not use the Google Mobile Ads SDK or AdMob in the App, and we do not collect advertising identifiers for ad delivery. We do not sell personal information.
+We do not sell personal information, share personal information with data brokers, or combine inzone data with third-party data for targeted advertising or advertising measurement.
 
 ---
 
@@ -99,14 +110,14 @@ We use the following providers only as needed to operate inzone:
 
 | Provider | Purpose |
 |---|---|
-| Supabase | Authentication, database, and file storage |
-| Resend | Account verification, password reset, and security email delivery |
-| Apple | Optional Sign in with Apple and App Store billing |
+| Supabase | Guest and connected authentication, database, file storage, security logs, and account deletion |
+| Resend | Verification, password-reset, and account-security email delivery |
+| Apple | Optional Sign in with Apple, App Store billing, and purchase records |
 | Google | Optional Google Sign-In and Google Play billing |
-| RevenueCat | Subscription and entitlement synchronization |
-| Expo | App development and delivery technology |
+| RevenueCat | Subscription validation, entitlement synchronization, and purchase restoration |
+| Expo | App build and delivery technology |
 
-These providers process information under their own privacy policies and contractual terms.
+These providers process data under their own terms and privacy policies. They may retain security, authentication, or transaction records where required by law or platform rules.
 
 ---
 
@@ -131,18 +142,21 @@ Data is retained while your account remains active and as needed for security, l
 You can:
 
 - Delete individual content in the App
+- Reset progress from Settings
 - Permanently delete your account and synchronized data from **Settings > Delete Account**
-- Request deletion by emailing **feedback@1inzone.app** if you cannot access the App
+- Request deletion at [feedback@1inzone.app](mailto:feedback@1inzone.app) if you cannot access the App
 
-Backups may remain for a limited period before routine deletion. Information that must be retained for fraud prevention, accounting, dispute resolution, or legal compliance may be kept only for the required period.
+See the dedicated [Account and Data Deletion page](/account-deletion.html) for details.
+
+Protected backups may retain deleted data for a limited period before routine expiration. Minimal security, fraud-prevention, accounting, dispute, or legal records may be retained only for the necessary period. Deleting an inzone account does not cancel an Apple App Store or Google Play subscription.
 
 ---
 
 ## 10. Your Choices and Rights
 
-Depending on where you live, you may have rights to access, correct, export, restrict, object to, or delete personal data. You may also withdraw optional permissions such as notifications through device settings.
+Depending on where you live, you may have rights to access, correct, export, restrict, object to, or delete personal data. You can disconnect third-party identities through the relevant provider and manage store subscriptions through Apple App Store or Google Play.
 
-To submit a privacy request, contact **feedback@1inzone.app**. We may need to verify that the request relates to your account.
+To submit a privacy request, contact [feedback@1inzone.app](mailto:feedback@1inzone.app). We may need the account username, connected email, or other limited information to verify that the request relates to your account. Guest users can delete their account directly in the App.
 
 ---
 
@@ -168,6 +182,6 @@ We may update this policy as inzone changes. Material updates will be presented 
 
 For privacy questions or requests:
 
-**Email:** feedback@1inzone.app
+**Email:** [feedback@1inzone.app](mailto:feedback@1inzone.app)
 
-**Developer:** Individual Developer
+**Developer:** Burak Furkan Koken, individual developer

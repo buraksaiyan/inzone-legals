@@ -74,8 +74,9 @@
 
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
   .card{
-    background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:26px;
-    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    background:rgba(255,255,255,.055);border:1px solid var(--border);border-radius:18px;padding:26px;
+    box-shadow:0 14px 40px rgba(0,0,0,.25);
+    backdrop-filter:blur(22px) saturate(125%);-webkit-backdrop-filter:blur(22px) saturate(125%);
     transition:transform .18s ease,border-color .18s ease}
   .card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.28)}
   .card .icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:1.2rem;margin-bottom:16px;background:var(--glass-strong);border:1px solid var(--border)}
@@ -186,8 +187,8 @@
     <h2>Your data, your rules</h2>
     <p class="lead">Official legal documentation for applications published by 1inzone Studio.</p>
     <div class="legal-links">
-      <a href="/PRIVACY_POLICY">Privacy Policy<span>What we collect, why, and how it's protected</span></a>
-      <a href="/EULA">End User License Agreement<span>The terms you agree to when using inzone</span></a>
+      <a href="/PRIVACY_POLICY.html">Privacy Policy<span>What we collect, why, and how it's protected</span></a>
+      <a href="/EULA.html">EULA &amp; Terms<span>Guest access, subscriptions, purchases, and app terms</span></a>
       <a href="/account-deletion.html">Account &amp; data deletion<span>Delete your account or request removal of specific data</span></a>
     </div>
 
@@ -204,7 +205,7 @@
       <p><strong>Option 2 — Request via email:</strong> if the app is uninstalled, email
         <a href="mailto:feedback@1inzone.app?subject=Account%20Deletion%20Request" style="color:var(--cool)">feedback@1inzone.app</a>
         with the subject "Account Deletion Request".</p>
-      <p class="note">For your protection, deletion requests must come from the same email address you signed up with. Requests from unmatched or unverified addresses will be rejected.</p>
+      <p class="note">If the account has a connected email, send the request from that address. Guest users can delete directly in the app. Include your inzone username when available so we can verify the correct account.</p>
     </div>
   </section>
 
@@ -212,8 +213,8 @@
     <div class="foot">
       <span>© 2026 1inzone Studio. All rights reserved.</span>
       <span>
-        <a href="/PRIVACY_POLICY">Privacy</a> &nbsp;·&nbsp;
-        <a href="/EULA">EULA</a> &nbsp;·&nbsp;
+        <a href="/PRIVACY_POLICY.html">Privacy</a> &nbsp;·&nbsp;
+        <a href="/EULA.html">EULA</a> &nbsp;·&nbsp;
         <a href="mailto:feedback@1inzone.app">feedback@1inzone.app</a>
       </span>
     </div>
