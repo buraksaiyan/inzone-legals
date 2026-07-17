@@ -45,31 +45,34 @@
       <p class="availability">App Store availability pending review. Available now on Google Play.</p>
     </header>
 
-    <section class="snapshot" aria-labelledby="snapshot-title">
+    <section class="snapshot" id="stats-demo" aria-labelledby="snapshot-title">
       <div class="snapshot-heading">
-        <p class="eyebrow">Your day, at a glance</p>
-        <h2 id="snapshot-title">A clearer signal from the work you already do.</h2>
+        <p class="eyebrow">Try the stat card</p>
+        <h2 id="snapshot-title">Shape the graph. See the whole picture.</h2>
+        <p class="snapshot-copy">Every action builds one or more attributes. Adjust them here to see how inzone turns five signals into one living profile.</p>
       </div>
-      <div class="day-strip" aria-label="Example daily progress">
-        <div><strong>A</strong><span>day grade</span></div>
+      <div class="day-strip" aria-live="polite">
+        <div><strong id="demo-overall">84</strong><span>overall rating</span></div>
         <div><strong>1h 12m</strong><span>focused today</span></div>
-        <div><strong>84</strong><span>overall rating</span></div>
+        <div><strong id="demo-strongest">Focus 92</strong><span>strongest attribute</span></div>
       </div>
-      <div class="progress-visual" aria-label="Five progress areas: focus, discipline, consistency, physical and mindfulness">
-        <div class="radar" aria-hidden="true">
-          <svg viewBox="0 0 220 190" role="img">
-            <polygon class="radar-grid" points="110,10 210,75 172,184 48,184 10,75"/>
-            <polygon class="radar-grid inner" points="110,45 174,86 150,155 70,155 46,86"/>
-            <polygon class="radar-fill" points="110,29 188,80 158,164 62,168 35,83"/>
+      <div class="progress-visual">
+        <div class="radar" aria-label="Live radar chart of the five adjustable attributes">
+          <svg viewBox="0 0 220 220" role="img" aria-labelledby="radar-title radar-desc">
+            <title id="radar-title">inzone stat radar</title>
+            <desc id="radar-desc">The shape updates as the five attribute sliders change.</desc>
+            <polygon class="radar-grid" points="110,10 205.1,79.1 168.8,190.9 51.2,190.9 14.9,79.1"/>
+            <polygon class="radar-grid inner" points="110,47 169.0,89.8 146.4,159.2 73.6,159.2 51.0,89.8"/>
+            <polygon id="demo-radar-fill" class="radar-fill" points="110,17.1 186.9,85.0 160.1,179.0 68.8,166.7 28.3,83.3"/>
           </svg>
         </div>
-        <ul class="stat-list">
-          <li><span class="dot focus"></span>Focus</li>
-          <li><span class="dot discipline"></span>Discipline</li>
-          <li><span class="dot consistency"></span>Consistency</li>
-          <li><span class="dot physical"></span>Physical</li>
-          <li><span class="dot mindfulness"></span>Mindfulness</li>
-        </ul>
+        <div class="stat-controls" aria-label="Adjust example attributes">
+          <label style="--stat-color:#d9b3ff"><span><b>Focus</b><output for="stat-focus">92</output></span><input id="stat-focus" data-stat="Focus" data-color="#d9b3ff" type="range" min="0" max="99" value="92"></label>
+          <label style="--stat-color:#ff80ba"><span><b>Discipline</b><output for="stat-discipline">85</output></span><input id="stat-discipline" data-stat="Discipline" data-color="#ff80ba" type="range" min="0" max="99" value="85"></label>
+          <label style="--stat-color:#5be17a"><span><b>Consistency</b><output for="stat-consistency">88</output></span><input id="stat-consistency" data-stat="Consistency" data-color="#5be17a" type="range" min="0" max="99" value="88"></label>
+          <label style="--stat-color:#ff9e92"><span><b>Physical</b><output for="stat-physical">70</output></span><input id="stat-physical" data-stat="Physical" data-color="#ff9e92" type="range" min="0" max="99" value="70"></label>
+          <label style="--stat-color:#62e5e9"><span><b>Mindfulness</b><output for="stat-mindfulness">85</output></span><input id="stat-mindfulness" data-stat="Mindfulness" data-color="#62e5e9" type="range" min="0" max="99" value="85"></label>
+        </div>
       </div>
     </section>
 
@@ -106,5 +109,6 @@
     <p>&copy; 2026 1inzone Studio</p>
     <div><a href="mailto:feedback@1inzone.app">Support</a><a href="/PRIVACY_POLICY.html">Privacy</a><a href="/EULA.html">Terms</a></div>
   </footer>
+  <script src="/assets/js/stats-demo.js" defer></script>
 </body>
 </html>
