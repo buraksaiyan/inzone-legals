@@ -1,0 +1,10 @@
+{
+  "name": "inzone: ADHD Focus & Study",
+  "short_name": "inzone",
+  "description": "ADHD-friendly focus timer, Pomodoro blocks, habit tracking and visible progress.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#100817",
+  "theme_color": "#100817",
+  "icons": [{ "src": "/assets/images/inzone-icon.png", "sizes": "500x500", "type": "image/png" }]
+}
