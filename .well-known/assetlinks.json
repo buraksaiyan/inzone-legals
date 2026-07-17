@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.inzoneapp.inzone",
+      "sha256_cert_fingerprints": [
+        "AC:92:19:C4:33:35:22:AF:27:0F:06:FA:68:CF:0C:06:35:5E:68:88:F5:EB:1E:F2:70:55:A2:A4:CF:6C:2A:C9"
+      ]
+    }
+  }
+]

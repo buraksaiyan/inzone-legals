@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: inzone Legal
 description: Official Privacy Policy and EULA for the inzone app.
 show_downloads: false
+url: https://1inzone.app
+include: [".well-known"]
+exclude: ["README.md"]

@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HA3Q8D6X3M.com.inzoneapp.inzone"],
+        "components": [
+          {
+            "/": "/open/*",
+            "comment": "Open supported inzone links in the native app."
+          }
+        ]
+      }
+    ]
+  }
+}
