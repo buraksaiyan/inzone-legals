@@ -1,225 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>inzone — Focus, build momentum, see your progress.</title>
-<meta name="description" content="inzone is a focused productivity app for focus sessions, habits, targets, daily wins and journaling, with personal grades that make progress visible. No account is required to start.">
-<meta property="og:title" content="inzone — Get in the zone.">
-<meta property="og:description" content="Focus sessions, habits, targets, daily wins and journaling, with personal grades that make progress visible.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://1inzone.app/">
-<meta name="theme-color" content="#0D0514">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --void:#0D0514;
-    --glass:rgba(45,22,70,.30);
-    --glass-strong:rgba(60,30,95,.40);
-    --border:rgba(255,255,255,.15);
-    --text:#FFFFFF;
-    --muted:rgba(255,255,255,.60);
-    --ghost:rgba(255,255,255,.40);
-    --greeting:rgba(200,180,220,.70);
-    --ember:#FFA500;
-    --cool:#00FFFF;
-    --green:#39D353;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{
-    background:var(--void);
-    color:var(--text);
-    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-    line-height:1.6;
-    overflow-x:hidden;
-  }
-  body::before{
-    content:"";position:fixed;inset:0;z-index:-1;
-    background:
-      radial-gradient(60rem 40rem at 85% -10%, rgba(167,139,250,.14), transparent 60%),
-      radial-gradient(50rem 35rem at -10% 30%, rgba(255,165,0,.08), transparent 60%),
-      radial-gradient(45rem 40rem at 50% 110%, rgba(0,255,255,.07), transparent 60%);
-  }
-  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
-
-  /* Nav */
-  nav{display:flex;align-items:center;justify-content:space-between;padding:28px 0}
-  .brand{display:flex;align-items:center;font-weight:800;font-size:1.25rem;letter-spacing:-.02em;text-decoration:none;color:var(--text)}
-  nav .links{display:flex;gap:24px;align-items:center}
-  nav .links a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500}
-  nav .links a:hover{color:var(--text)}
-
-  /* Hero */
-  header{padding:72px 0 88px;text-align:center}
-  .pill{display:inline-block;padding:6px 14px;border:1px solid var(--border);border-radius:999px;
-    background:var(--glass);color:var(--greeting);font-size:.82rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
-  h1{font-size:clamp(2.4rem,6vw,4.2rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;margin:22px 0 18px}
-  h1 .grad{background:linear-gradient(90deg,var(--ember),var(--cool));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{max-width:640px;margin:0 auto 36px;color:var(--muted);font-size:1.12rem}
-  .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;text-decoration:none;font-weight:600;font-size:.98rem;transition:transform .15s ease,box-shadow .15s ease}
-  .btn:hover{transform:translateY(-2px)}
-  .btn-primary{background:linear-gradient(135deg,var(--ember),#ff8c00);color:#0D0514;box-shadow:0 8px 28px rgba(255,165,0,.30)}
-  .btn-ghost{border:1px solid var(--border);background:var(--glass);color:var(--text)}
-  .store-note{margin-top:14px;color:var(--ghost);font-size:.85rem}
-
-  /* Sections */
-  section{padding:64px 0}
-  .kicker{color:var(--greeting);font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
-  h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
-  .lead{color:var(--muted);max-width:620px;margin-bottom:40px}
-
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
-  .card{
-    background:rgba(255,255,255,.055);border:1px solid var(--border);border-radius:18px;padding:26px;
-    box-shadow:0 14px 40px rgba(0,0,0,.25);
-    backdrop-filter:blur(22px) saturate(125%);-webkit-backdrop-filter:blur(22px) saturate(125%);
-    transition:transform .18s ease,border-color .18s ease}
-  .card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.28)}
-  .card .icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:1.2rem;margin-bottom:16px;background:var(--glass-strong);border:1px solid var(--border)}
-  .card h3{font-size:1.05rem;font-weight:700;margin-bottom:8px}
-  .card p{color:var(--muted);font-size:.93rem}
-  .tag{display:inline-block;margin-top:14px;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.03em}
-
-  /* Stats strip */
-  .stats{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:8px}
-  .stat-chip{padding:8px 16px;border-radius:999px;border:1px solid var(--border);background:var(--glass);font-size:.88rem;font-weight:600}
-
-  /* Legal */
-  .legal-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:8px}
-  .legal-links a{display:block;padding:18px 20px;border:1px solid var(--border);border-radius:14px;background:var(--glass);color:var(--text);text-decoration:none;font-weight:600;font-size:.95rem}
-  .legal-links a span{display:block;color:var(--ghost);font-weight:400;font-size:.82rem;margin-top:4px}
-  .legal-links a:hover{border-color:rgba(255,255,255,.3)}
-  .deletion{margin-top:34px;background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:26px}
-  .deletion h3{font-size:1.05rem;margin-bottom:12px}
-  .deletion ol{margin:10px 0 16px 20px;color:var(--muted);font-size:.93rem}
-  .deletion p{color:var(--muted);font-size:.93rem;margin-bottom:10px}
-  .deletion strong{color:var(--text)}
-  .note{border-left:3px solid var(--ember);padding:10px 14px;background:rgba(255,165,0,.06);border-radius:0 10px 10px 0;color:var(--muted);font-size:.9rem}
-
-  /* Footer */
-  footer{border-top:1px solid var(--border);padding:36px 0 48px;margin-top:40px}
-  .foot{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;color:var(--ghost);font-size:.88rem}
-  .foot a{color:var(--muted);text-decoration:none}
-  .foot a:hover{color:var(--text)}
-  @media (max-width:640px){ nav .links{display:none} header{padding:48px 0 64px} }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>inzone | Focus, habits and visible progress</title>
+  <meta name="description" content="Build focus, habits and momentum with inzone. Run focus sessions, track meaningful routines and turn each day into visible progress.">
+  <meta name="theme-color" content="#100817">
+  <meta property="og:title" content="inzone | Make progress visible">
+  <meta property="og:description" content="Focus sessions, habits, targets, daily wins and a living view of your progress.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1inzone.app/">
+  <meta property="og:image" content="https://1inzone.app/assets/images/inzone-icon.png">
+  <link rel="icon" href="/assets/images/inzone-icon.png">
+  <link rel="stylesheet" href="/assets/css/landing.css">
 </head>
 <body>
-<div class="wrap">
-
-  <nav>
-    <a class="brand" href="/">inzone</a>
-    <div class="links">
-      <a href="#features">Features</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a class="brand" href="/" aria-label="inzone home">
+      <img src="/assets/images/inzone-wordmark.png" alt="inzone" width="118" height="118">
+    </a>
+    <div class="nav-links">
+      <a href="#inside">Inside the app</a>
       <a href="#legal">Legal</a>
       <a href="mailto:feedback@1inzone.app">Support</a>
     </div>
   </nav>
 
-  <header>
-    <span class="pill">Focused productivity</span>
-    <h1>inzone<br><span class="grad">Make progress visible.</span></h1>
-    <p class="sub">inzone is a focused productivity app that brings focus sessions, habits, targets, daily wins and journaling together, then turns your day into a clear personal grade. No account is required to start.</p>
-    <div class="cta">
-      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.inzoneapp.inzone">Get it on Google Play</a>
-      <a class="btn btn-ghost" href="#features">See what's inside</a>
-    </div>
-    <p class="store-note">Available on Google Play. App Store release coming soon.</p>
-  </header>
+  <main id="main">
+    <header class="hero">
+      <img class="app-icon" src="/assets/images/inzone-icon.png" alt="inzone app icon" width="164" height="164">
+      <p class="eyebrow">Focus without the noise</p>
+      <h1>inzone</h1>
+      <p class="hero-line">Make progress visible.</p>
+      <p class="hero-copy">Focus sessions, habits, targets, daily wins and journaling come together in one private space built for momentum, not distraction.</p>
+      <div class="store-links" aria-label="Download inzone">
+        <a class="store-link apple" href="https://apps.apple.com/app/id6789995346" aria-label="Download inzone on the App Store">
+          <img src="/assets/images/download-on-app-store.svg" alt="Download on the App Store">
+        </a>
+        <a class="store-link google" href="https://play.google.com/store/apps/details?id=com.inzoneapp.inzone" aria-label="Get inzone on Google Play">
+          <img src="/assets/images/get-it-on-google-play.png" alt="Get it on Google Play">
+        </a>
+      </div>
+      <p class="availability">App Store availability pending review. Available now on Google Play.</p>
+    </header>
 
-  <section id="features">
-    <p class="kicker">Features</p>
-    <h2>A quieter way to build momentum</h2>
-    <p class="lead">Focus, follow through, and see the shape of your day without feeds, ads, or public competition.</p>
-    <div class="grid">
-      <div class="card">
-        <div class="icon" style="color:#A78BFA"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/></svg></div>
-        <h3>Focus sessions</h3>
-        <p>Flow, Pomodoro, body and target-based sessions with progress that continues while the app is backgrounded.</p>
-        <span class="tag" style="background:rgba(167,139,250,.15);color:#A78BFA">Focus</span>
+    <section class="snapshot" aria-labelledby="snapshot-title">
+      <div class="snapshot-heading">
+        <p class="eyebrow">Your day, at a glance</p>
+        <h2 id="snapshot-title">A clearer signal from the work you already do.</h2>
       </div>
-      <div class="card">
-        <div class="icon" style="color:#34D399"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
-        <h3>Habits &amp; streaks</h3>
-        <p>Build habits with flexible frequencies, log reps and protect your streaks. Milestones unlock achievements.</p>
-        <span class="tag" style="background:rgba(52,211,153,.15);color:#34D399">Consistency</span>
+      <div class="day-strip" aria-label="Example daily progress">
+        <div><strong>A</strong><span>day grade</span></div>
+        <div><strong>1h 12m</strong><span>focused today</span></div>
+        <div><strong>84</strong><span>overall rating</span></div>
       </div>
-      <div class="card">
-        <div class="icon" style="color:#F472B6"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
-        <h3>Targets</h3>
-        <p>Define what matters, focus directly on a target, and keep completed work connected to the bigger picture.</p>
-        <span class="tag" style="background:rgba(244,114,182,.15);color:#F472B6">Discipline</span>
+      <div class="progress-visual" aria-label="Five progress areas: focus, discipline, consistency, physical and mindfulness">
+        <div class="radar" aria-hidden="true">
+          <svg viewBox="0 0 220 190" role="img">
+            <polygon class="radar-grid" points="110,10 210,75 172,184 48,184 10,75"/>
+            <polygon class="radar-grid inner" points="110,45 174,86 150,155 70,155 46,86"/>
+            <polygon class="radar-fill" points="110,29 188,80 158,164 62,168 35,83"/>
+          </svg>
+        </div>
+        <ul class="stat-list">
+          <li><span class="dot focus"></span>Focus</li>
+          <li><span class="dot discipline"></span>Discipline</li>
+          <li><span class="dot consistency"></span>Consistency</li>
+          <li><span class="dot physical"></span>Physical</li>
+          <li><span class="dot mindfulness"></span>Mindfulness</li>
+        </ul>
       </div>
-      <div class="card">
-        <div class="icon" style="color:#60A5FA"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/><path d="M9 7h7"/><path d="M9 11h5"/></svg></div>
-        <h3>Journal</h3>
-        <p>A private space for daily entries. Your words stay yours — journaling still counts toward your mindfulness stat.</p>
-        <span class="tag" style="background:rgba(96,165,250,.15);color:#60A5FA">Mindfulness</span>
-      </div>
-      <div class="card">
-        <div class="icon" style="color:#FB923C"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9.5 6.9-3.6 11.2h-11.8L2.5 8.9z"/><path d="M12 7.5l4.7 3.4-1.8 5.6H9.1l-1.8-5.6z" opacity=".55"/></svg></div>
-        <h3>Living stat card</h3>
-        <p>A spider chart of Focus, Discipline, Consistency, Physical and Mindfulness — with S to F grades that update as you do.</p>
-        <span class="tag" style="background:rgba(251,146,60,.15);color:#FB923C">Physical</span>
-      </div>
-      <div class="card">
-        <div class="icon" style="color:#FFA500"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0V4z"/><path d="M7 6H4a2 2 0 0 0 0 4h3"/><path d="M17 6h3a2 2 0 0 1 0 4h-3"/></svg></div>
-        <h3>Daily wins</h3>
-        <p>Capture three meaningful wins each day and close the loop with a simple personal record of what moved forward.</p>
-        <span class="tag" style="background:rgba(255,165,0,.15);color:#FFA500">Momentum</span>
-      </div>
-    </div>
-    <div class="stats" style="margin-top:34px">
-      <span class="stat-chip" style="color:#A78BFA">Focus</span>
-      <span class="stat-chip" style="color:#F472B6">Discipline</span>
-      <span class="stat-chip" style="color:#34D399">Consistency</span>
-      <span class="stat-chip" style="color:#FB923C">Physical</span>
-      <span class="stat-chip" style="color:#60A5FA">Mindfulness</span>
-    </div>
-  </section>
+    </section>
 
-  <section id="legal">
-    <p class="kicker">Legal Center</p>
-    <h2>Your data, your rules</h2>
-    <p class="lead">Official legal documentation for applications published by 1inzone Studio.</p>
-    <div class="legal-links">
-      <a href="/PRIVACY_POLICY.html">Privacy Policy<span>What we collect, why, and how it's protected</span></a>
-      <a href="/EULA.html">EULA &amp; Terms<span>Guest access, subscriptions, purchases, and app terms</span></a>
-      <a href="/account-deletion.html">Account &amp; data deletion<span>Delete your account or request removal of specific data</span></a>
-    </div>
+    <section class="features" id="inside" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Inside inzone</p>
+        <h2 id="features-title">Everything you need to move forward. Nothing you need to scroll past.</h2>
+      </div>
+      <div class="feature-grid">
+        <article><span class="number">01</span><h3>Focus your way</h3><p>Use Flow, Pomodoro, Body Focus or target-based sessions. Timers keep running when you step into another app.</p></article>
+        <article><span class="number">02</span><h3>Build consistency</h3><p>Shape habits around your real schedule, check in, protect streaks and make repeat effort easy to see.</p></article>
+        <article><span class="number">03</span><h3>Connect the work</h3><p>Link focus to targets, capture three daily wins and keep private journal entries in the same rhythm.</p></article>
+        <article><span class="number">04</span><h3>See the pattern</h3><p>Grades, calendars and a living stat card turn scattered actions into a useful picture of your progress.</p></article>
+      </div>
+      <p class="privacy-line">No ads. No public competition. Start as a guest and connect an account only when you want to protect your progress.</p>
+    </section>
 
-    <div class="deletion" id="account-deletion">
-      <h3>Account deletion (inzone)</h3>
-      <p>You can request permanent deletion of your inzone account and all associated data at any time.</p>
-      <p><strong>Option 1 — Delete via app (instant):</strong></p>
-      <ol>
-        <li>Open <strong>inzone</strong></li>
-        <li>Go to <strong>Settings</strong></li>
-        <li>Tap <strong>Delete Account</strong></li>
-        <li>Confirm to permanently remove your data</li>
-      </ol>
-      <p><strong>Option 2 — Request via email:</strong> if the app is uninstalled, email
-        <a href="mailto:feedback@1inzone.app?subject=Account%20Deletion%20Request" style="color:var(--cool)">feedback@1inzone.app</a>
-        with the subject "Account Deletion Request".</p>
-      <p class="note">If the account has a connected email, send the request from that address. Guest users can delete directly in the app. Include your inzone username when available so we can verify the correct account.</p>
-    </div>
-  </section>
+    <section class="legal" id="legal" aria-labelledby="legal-title">
+      <div class="section-heading">
+        <p class="eyebrow">Legal center</p>
+        <h2 id="legal-title">Clear terms, easy access.</h2>
+        <p>Read how inzone handles your data, subscriptions and account controls.</p>
+      </div>
+      <div class="legal-links">
+        <a href="/PRIVACY_POLICY.html"><span>Privacy Policy</span><small>Data use and protection</small><b aria-hidden="true">&#8599;</b></a>
+        <a href="/EULA.html"><span>EULA &amp; Terms</span><small>App and subscription terms</small><b aria-hidden="true">&#8599;</b></a>
+        <a href="/account-deletion.html"><span>Account deletion</span><small>Delete an account or specific data</small><b aria-hidden="true">&#8599;</b></a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <div class="foot">
-      <span>© 2026 1inzone Studio. All rights reserved.</span>
-      <span>
-        <a href="/PRIVACY_POLICY.html">Privacy</a> &nbsp;·&nbsp;
-        <a href="/EULA.html">EULA</a> &nbsp;·&nbsp;
-        <a href="mailto:feedback@1inzone.app">feedback@1inzone.app</a>
-      </span>
-    </div>
+    <a class="footer-brand" href="/">inzone</a>
+    <p>&copy; 2026 1inzone Studio</p>
+    <div><a href="mailto:feedback@1inzone.app">Support</a><a href="/PRIVACY_POLICY.html">Privacy</a><a href="/EULA.html">Terms</a></div>
   </footer>
-
-</div>
 </body>
 </html>
