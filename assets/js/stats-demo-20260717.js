@@ -95,7 +95,11 @@
     input.addEventListener('focus', () => update(input));
     input.addEventListener('pointerdown', () => update(input));
   });
-  chartLabels.forEach((label) => label.addEventListener('click', () => document.querySelector(`#${label.dataset.target}`)?.focus()));
+  chartLabels.forEach((label) => {
+    const input = document.querySelector(`#${label.dataset.target}`);
+    label.style.setProperty('--label-color', input?.dataset.color || '#a78bfa');
+    label.addEventListener('click', () => input?.focus());
+  });
   overallCard.addEventListener('click', selectOverall);
   infoButton?.addEventListener('click', () => {
     if (!infoPanel) return;
@@ -108,6 +112,12 @@
     infoPanel.hidden = true;
     infoButton?.setAttribute('aria-expanded', 'false');
     infoButton?.focus();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && infoPanel && !infoPanel.hidden) infoClose?.click();
+  });
+  document.querySelectorAll('.mobile-nav a').forEach((link) => {
+    link.addEventListener('click', () => link.closest('details')?.removeAttribute('open'));
   });
   update();
   selectOverall();

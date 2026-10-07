@@ -1,22 +1,22 @@
 ---
 layout: default
 title: Privacy Policy
-description: Privacy practices for the inzone mobile app.
+description: Privacy practices for the RiseArc mobile app.
 ---
 
-# Privacy Policy for inzone
+# Privacy Policy for RiseArc
 
-**Last Updated:** July 16, 2026
+**Last Updated:** October 7, 2026
 
 **Effective Date:** July 13, 2026
 
-This Privacy Policy explains what inzone ("we," "us," or "our") collects, why it is needed, how it is protected, and the choices available to you when you use the inzone mobile application (the "App").
+This Privacy Policy explains what RiseArc ("we," "us," or "our") collects, why it is needed, how it is protected, and the choices available to you when you use the RiseArc mobile application (the "App").
 
 ---
 
 ## 1. Guest-First Accounts
 
-inzone automatically creates a guest account after you accept the Privacy Policy and EULA. A guest account uses a random user identifier and does not require an email address.
+RiseArc automatically creates a guest account after you accept the Privacy Policy and EULA. A guest account uses a random user identifier and does not require an email address.
 
 You may later connect that same account to email and password, Sign in with Apple, or Google Sign-In. Connecting an identity is designed to preserve the guest account ID and its progress rather than create a separate profile.
 
@@ -34,7 +34,7 @@ We do not receive your Apple ID password, Google password, contacts, calendars, 
 
 ## 2. Content and Activity
 
-We store information you choose to create or generate in inzone, including:
+We store information you choose to create or generate in RiseArc, including:
 
 - Focus sessions, modes, durations, completion status, and timestamps
 - Targets and their progress
@@ -52,7 +52,7 @@ This information provides the App, synchronizes progress, restores your account,
 
 ## 3. Purchases and Subscriptions
 
-Apple App Store and Google Play process payments. RevenueCat helps inzone validate Premium and Founder access across devices.
+Apple App Store and Google Play process payments. RevenueCat helps RiseArc validate Premium and Founder access across devices.
 
 We and these providers may process:
 
@@ -67,15 +67,17 @@ We do not receive or store your full payment-card or bank-account details.
 
 ## 4. Technical and Security Data
 
-inzone and the service providers listed below may process limited technical data needed for authentication, purchases, compatibility, fraud prevention, security, and reliability. Depending on the feature and provider, this may include:
+RiseArc and the service providers listed below may process limited technical data needed for authentication, purchases, compatibility, fraud prevention, security, and reliability. Depending on the feature and provider, this may include:
 
 - App version, operating system, device type, and device-level identifiers
 - Timezone and general locale
-- Approximate location inferred from an IP address or provider request; inzone does not request precise GPS location
+- Approximate location inferred from an IP address or provider request; RiseArc does not request precise GPS location
 - Product interaction and other usage data, such as app activity needed to save progress and restore state
 - Security events, network information, and limited diagnostic information
 
-inzone does not request the iOS advertising identifier (IDFA), does not use this information for cross-app tracking, and does not use third-party advertising SDKs.
+RiseArc does not request the iOS advertising identifier (IDFA), does not use this information for cross-app tracking, and does not use third-party advertising SDKs.
+
+Optional target and habit reminders are scheduled locally on your device. Reminder settings are stored with your local account data. Active timer timestamps are saved locally so sessions can recover after backgrounding or a restart. You can change notification permission in device settings.
 
 ---
 
@@ -98,15 +100,15 @@ We do not use personal data for third-party advertising, our own advertising, da
 
 ## 6. No Ads, Tracking, or Sale of Data
 
-inzone does not display third-party advertising. The App does not include Google Mobile Ads or AdMob and does not collect advertising identifiers for ad delivery.
+RiseArc does not display third-party advertising. The App does not include Google Mobile Ads or AdMob and does not collect advertising identifiers for ad delivery.
 
-We do not sell personal information, share personal information with data brokers, or combine inzone data with third-party data for targeted advertising or advertising measurement.
+We do not sell personal information, share personal information with data brokers, or combine RiseArc data with third-party data for targeted advertising or advertising measurement.
 
 ---
 
 ## 7. Service Providers
 
-We use the following providers only as needed to operate inzone:
+We use the following providers only as needed to operate RiseArc:
 
 | Provider | Purpose |
 |---|---|
@@ -148,7 +150,7 @@ You can:
 
 See the dedicated [Account and Data Deletion page](/account-deletion.html) for details.
 
-Protected backups may retain deleted data for a limited period before routine expiration. Minimal security, fraud-prevention, accounting, dispute, or legal records may be retained only for the necessary period. Deleting an inzone account does not cancel an Apple App Store or Google Play subscription.
+Protected backups may retain deleted data for a limited period before routine expiration. Minimal security, fraud-prevention, accounting, dispute, or legal records may be retained only for the necessary period. Deleting a RiseArc account does not cancel an Apple App Store or Google Play subscription.
 
 ---
 
@@ -162,7 +164,7 @@ To submit a privacy request, contact [feedback@1inzone.app](mailto:feedback@1inz
 
 ## 11. Children's Privacy
 
-inzone is not directed to children under 13 or under the applicable age of digital consent in their jurisdiction. If you believe a child has provided personal information without appropriate authorization, contact us so we can investigate and delete it where required.
+RiseArc is not directed to children under 13 or under the applicable age of digital consent in their jurisdiction. If you believe a child has provided personal information without appropriate authorization, contact us so we can investigate and delete it where required.
 
 ---
 
@@ -174,7 +176,7 @@ Our service providers may process information in countries other than your own. 
 
 ## 13. Changes to This Policy
 
-We may update this policy as inzone changes. Material updates will be presented in the App for renewed acceptance when required. The current version and effective date will remain available on this website.
+We may update this policy as RiseArc changes. Material updates will be presented in the App for renewed acceptance when required. The current version and effective date will remain available on this website.
 
 ---
 

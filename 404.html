@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,follow">
   <meta name="theme-color" content="#100817">
-  <title>Opening inzone</title>
-  <link rel="icon" href="/assets/images/inzone-icon.png">
+  <title>Opening RiseArc</title>
+  <link rel="icon" href="/assets/images/risearc-icon.png">
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
@@ -22,9 +22,9 @@
       var path = window.location.pathname.toLowerCase().replace(/\/+$/, '') || '/';
       var target = '/';
 
-      if (path === '/privacy' || path === '/privacy-policy') {
+      if (path === '/privacy' || path === '/privacy-policy' || path === '/privacy_policy.html') {
         target = '/PRIVACY_POLICY.html';
-      } else if (path === '/eula' || path === '/terms' || path === '/terms-of-service') {
+      } else if (path === '/eula' || path === '/eula.html' || path === '/terms' || path === '/terms-of-service') {
         target = '/EULA.html';
       } else if (path === '/delete-account' || path === '/account-deletion') {
         target = '/account-deletion.html';
@@ -38,10 +38,10 @@
 </head>
 <body>
   <main>
-    <img src="/assets/images/inzone-icon.png" alt="inzone app icon">
-    <h1>Opening inzone</h1>
+    <img src="/assets/images/risearc-icon.png" alt="RiseArc app icon">
+    <h1>Opening RiseArc</h1>
     <p>This link is being redirected to the closest available page.</p>
-    <a href="/">Go to inzone</a>
+    <a href="/">Go to RiseArc</a>
   </main>
 </body>
 </html>
