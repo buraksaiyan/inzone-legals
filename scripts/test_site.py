@@ -36,6 +36,28 @@ class Page(HTMLParser):
 
 
 class SiteTests(unittest.TestCase):
+    def test_health_privacy_disclosures_match_source(self):
+        markdown = (ROOT / "PRIVACY_POLICY.md").read_text()
+        html = (ROOT / "PRIVACY_POLICY.html").read_text()
+        health = markdown.split("### Optional Apple Health Activity\n\n", 1)[1].split("\n---", 1)[0]
+        paragraphs = health.strip().split("\n\n")
+        self.assertEqual(len(paragraphs), 3)
+        for paragraph in paragraphs:
+            self.assertIn(f"<p>{paragraph}</p>", html)
+        for disclosure in (
+            "read-only access to steps, walking and running distance, and workouts",
+            "they are not saved or uploaded",
+            "With your separate agreement to save movement history",
+            "Only the resulting daily Physical XP total and its date",
+            "You can also revoke permissions in Apple Health",
+        ):
+            self.assertIn(disclosure, health)
+        recovery = next(p for p in markdown.split("\n\n") if p.startswith("To prevent accidental loss"))
+        self.assertIn("Movement details imported from Apple Health are excluded", recovery)
+        self.assertIn(f"<p>{recovery}</p>", html)
+        self.assertIn("**Effective Date:** July 13, 2026", markdown)
+        self.assertIn("<strong>Effective Date:</strong> July 13, 2026", html)
+
     def test_rebrand(self):
         for filename in PAGES:
             with self.subTest(page=filename):
@@ -90,7 +112,8 @@ class SiteTests(unittest.TestCase):
         self.assertTrue(all("RiseArc" in entry["name"] for entry in data["@graph"]))
         sitemap = ET.parse(ROOT / "sitemap.xml")
         for url in sitemap.getroot():
-            self.assertEqual(url.find("{*}lastmod").text, "2026-10-07")
+            expected = "2026-10-21" if url.find("{*}loc").text.endswith("/PRIVACY_POLICY.html") else "2026-10-07"
+            self.assertEqual(url.find("{*}lastmod").text, expected)
 
 
 if __name__ == "__main__":

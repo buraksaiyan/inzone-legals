@@ -6,7 +6,7 @@ description: Privacy practices for the RiseArc mobile app.
 
 # Privacy Policy for RiseArc
 
-**Last Updated:** October 7, 2026
+**Last Updated:** October 21, 2026
 
 **Effective Date:** July 13, 2026
 
@@ -47,6 +47,14 @@ We store information you choose to create or generate in RiseArc, including:
 - Onboarding choices and legal-acceptance records
 
 This information provides the App, synchronizes progress, restores your account, and displays your history. Journal entries and other personal content are not used for advertising or marketing.
+
+### Optional Apple Health Activity
+
+On iOS, if you choose to connect Apple Health, RiseArc requests read-only access to steps, walking and running distance, and workouts for your activity summary, the lifetime totals on your profile, and Physical XP. Lifetime totals since you joined are calculated on your device when you view your profile; they are not saved or uploaded. This is optional and is not required for focus timers or manual Body Focus. We do not request location, routes, heart rate, medical records, or permission to write health data.
+
+With your separate agreement to save movement history, daily steps, workout names, start times, durations, last-import times and imported XP are saved in your account's local storage on this device and shown in Day View. Existing connections do not begin saving history without your agreement. Native record identifiers and other raw Health metadata are not saved. Movement history is not uploaded to our servers or sent to advertising or analytics services. Only the resulting daily Physical XP total and its date are stored with your account in Supabase to synchronize progress and prevent duplicate awards. Health-derived information is never used for advertising, sold, or shared with data brokers.
+
+Disconnecting in Physical stops further reads and clears the live activity summary, but keeps saved Day View history. Use Clear movement history in Physical to remove that account's saved movement details on this device and stop saving new history. You can also revoke permissions in Apple Health. Resetting progress or deleting the account clears its local history and associated daily XP ledger. Clearing movement history or disconnecting does not revoke earned XP. Health data is not used for medical diagnosis or treatment.
 
 ---
 
@@ -149,6 +157,8 @@ You can:
 - Request deletion at [feedback@1inzone.app](mailto:feedback@1inzone.app) if you cannot access the App
 
 See the dedicated [Account and Data Deletion page](/account-deletion.html) for details.
+
+To prevent accidental loss during sync and app upgrades, private recovery copies of progress and changed synced content may be retained for your account. Conflicting uploads from older app versions are saved separately instead of overwriting newer progress. Reset All Data clears active progress but does not erase these recovery copies; deleting the account removes its server-side recovery records and locally stored recovery copies on the device used for deletion. Local copies on other devices may remain until app data is removed on those devices. Movement details imported from Apple Health are excluded from these recovery copies.
 
 Protected backups may retain deleted data for a limited period before routine expiration. Minimal security, fraud-prevention, accounting, dispute, or legal records may be retained only for the necessary period. Deleting a RiseArc account does not cancel an Apple App Store or Google Play subscription.
 
